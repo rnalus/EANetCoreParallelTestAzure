@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: 'UdemyPool'
+pool: 
+  vmImage: 'ubuntu-latest'
   
 
 variables:
